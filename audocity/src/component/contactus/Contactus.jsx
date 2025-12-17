@@ -108,7 +108,7 @@ const Contactus = () => {
         </div>
 
         <div className='form basis-[48%] text-[#676767] w-full'>
-            <form onSubmit={onSubmit} className='flex flex-col gap-4 '>
+            <form action="https://api.web3forms.com/submitgit " onSubmit={onSubmit} className='flex flex-col gap-4 '>
                 <label>Your Name</label>
                 <input type="text" placeholder='Your Name' className='w-full p-2 bg-[#ebecfe] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'/>
                 <label>Your Email</label>
