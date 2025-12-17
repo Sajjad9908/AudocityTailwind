@@ -1,0 +1,64 @@
+/* Swiper Custom Styles */
+
+.swiper-container {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+.mySwiper {
+  width: 90%;
+  padding: 20px;
+}
+
+/* Arrow Button Styling */
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #2a2f90;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #1a1f70;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+.swiper-button-next {
+  right: 10px;
+}
+
+/* Completely remove Swiper default ::after */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Add clean arrow symbols using ::before */
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .swiper-container {
+  padding: 0 !important;
+  }
+  .mySwiper {
+  padding: 0px;
+}
+}

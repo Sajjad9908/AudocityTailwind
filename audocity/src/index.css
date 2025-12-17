@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+@theme {
+    --breakpoint-exsm: 400px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-md2: 855px;  /* ⭐ Your custom breakpoint */
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+*{
+  
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5 !important;
+}
+
