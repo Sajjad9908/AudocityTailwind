@@ -110,11 +110,11 @@ const Contactus = () => {
         <div className='form basis-[48%] text-[#676767] w-full'>
             <form action="https://api.web3forms.com/submitgit " onSubmit={onSubmit} className='flex flex-col gap-4 '>
                 <label>Your Name</label>
-                <input type="text" placeholder='Your Name' className='w-full p-2 bg-[#ebecfe] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'/>
+                <input name='name' type="text" placeholder='Your Name' className='w-full p-2 bg-[#ebecfe] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'/>
                 <label>Your Email</label>
-                <input type="email" placeholder='Your Email' className='w-full p-2 bg-[#ebecfe] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'/>
+                <input name='email' type="email" placeholder='Your Email' className='w-full p-2 bg-[#ebecfe] border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'/>
                 <label>Write your messages here</label>
-                <textarea placeholder='Your Message' rows="5" className='w-full bg-[#ebecfe] p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'></textarea>
+                <textarea name='message' placeholder='Your Message' rows="5" className='w-full bg-[#ebecfe] p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'></textarea>
                 <div className='flex items-center gap-2 mt-2'>
                 <img src={captcha} alt="Captcha" className="w-[16px]"/>
                 <input type='checkbox' id='human' checked={human} onChange={handleCaptchaChange} disabled={verifying} />
