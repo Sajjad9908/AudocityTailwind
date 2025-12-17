@@ -3,10 +3,10 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { FaLongArrowAltLeft } from "react-icons/fa";
-import User1 from '../../assets/user1.png';
-import User2 from '../../assets/user2.png';
-import User3 from '../../assets/user3.png';
-import User4 from '../../assets/user4.png';
+import user1 from '../../assets/user1.png';
+import user2 from '../../assets/user2.png';
+import user3 from '../../assets/user3.png';
+import user4 from '../../assets/user4.png';
 
 
 
@@ -26,42 +26,42 @@ const Swipper = () => {
   const testimonials = [
     {
       id: 1,
-      image: User1,
+      image: user1,
       name: 'John Doe',
       title: 'Student',
       text: 'This is an amazing course that helped me learn React. The instructors are very knowledgeable and the curriculum is well structured. I would highly recommend this to anyone.',
     },
     {
       id: 2,
-      image: User2,
+      image: user2,
       name: 'Jane Smith',
       title: 'Developer',
       text: 'Great experience with this platform. The content is engaging and the support team is very responsive. I have improved my skills significantly in just a few weeks.',
     },
     {
       id: 3,
-      image: User3,
+      image: user3  ,
       name: 'Mike Johnson',
       title: 'Student',
       text: 'Excellent course materials and interactive lessons. The projects are challenging and help reinforce what I have learned. This is worth every penny spent.',
     },
     {
       id: 4,
-      image: User4,
+      image: user4,
       name: 'Sarah Williams',
       title: 'Designer',
       text: 'Outstanding learning experience. The mentors provided valuable feedback on my projects. I feel confident to take on real world projects now after completing this course.',
     },
     {
       id: 5,
-      image: User1,
+      image: user1,
       name: 'David Brown',
       title: 'Engineer',
       text: 'Perfect blend of theory and practice. The course covers everything from basics to advanced concepts. I have already applied what I learned in my current job.',
     },
     {
       id: 6,
-      image: User2,
+      image: user2,
       name: 'Emma Davis',
       title: 'Developer',
       text: 'Highly professional and well organized course. The resources provided are comprehensive and up to date. I would definitely enroll in other courses by this instructor.',
